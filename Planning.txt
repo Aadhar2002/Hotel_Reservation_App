@@ -1,8 +1,13 @@
 Showing the user a list of all the available hotels.
 Allow users to book the hotel of their choosing.
+Allow users to select the desired room (Later updation session).
+User Information page (Later updation session).
+Payment Gateway page (Later updation session).
 Send the confirmation of the user's hotel reservation.
 
 Classes:
 User.
 Hotel.
 TicketConfirmation.
+Rooms (Later updation session).
+Payment Gateway (Later Updation session).
