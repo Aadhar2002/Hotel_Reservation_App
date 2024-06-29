@@ -1,0 +1,8 @@
+Showing the user a list of all the available hotels.
+Allow users to book the hotel of their choosing.
+Send the confirmation of the user's hotel reservation.
+
+Classes:
+User.
+Hotel.
+TicketConfirmation.
