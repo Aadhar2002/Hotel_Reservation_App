@@ -9,7 +9,7 @@ class Hotel:
         self.name = df.loc[df["id"] == self.hotel_id, "name"].squeeze()
     def book(self):
         """Books the hotel and changes the availability to no"""
-        df.loc[df["id"] == self.hotel_id, "available"] = "yes"
+        df.loc[df["id"] == self.hotel_id, "available"] = "no"
         df.to_csv("hotels.csv", index = False)
 
     def available(self):
@@ -27,7 +27,7 @@ class TicketConfirmation:
     def generate(self):
         content = f"""
         Thank you for your booking our hotel!
-        here are your booking details:
+        Here are your booking details:
         Name:{self.customer_name}
         Hotel Name: {self.hotel.name}
         """
