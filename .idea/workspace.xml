@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c639a56a-d7a1-4942-a198-08479e742866" name="Changes" comment="Working on the classes of the application.">
+    <list default="true" id="c639a56a-d7a1-4942-a198-08479e742866" name="Changes" comment="Data file for card and card security">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Planning.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Planning.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards.csv" beforeDir="false" afterPath="$PROJECT_DIR$/cards.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +37,9 @@
     "accountId": "f9186654-c7da-442d-8fef-d0c30c06c0de"
   }
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -48,7 +54,8 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/aadharkaushik/Desktop/pythonProject/Hotel Reservation App/pythonProject"
+    "last_opened_file_path": "/Users/aadharkaushik/Desktop/pythonProject/Hotel Reservation App/pythonProject",
+    "settings.editor.selected.configurable": "project.scopes"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -136,7 +143,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720185989977</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Hotel reservation and ticket generation.">
+      <option name="closed" value="true" />
+      <created>1720186292021</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720186292021</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Data file for card and card security">
+      <option name="closed" value="true" />
+      <created>1720244121995</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720244121995</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +176,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="BLUEPRINT: Planning the steps of creating this application." />
     <MESSAGE value="Working on the classes of the application." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on the classes of the application." />
+    <MESSAGE value="Hotel reservation and ticket generation." />
+    <MESSAGE value="Data file for card and card security" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data file for card and card security" />
   </component>
 </project>
