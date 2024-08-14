@@ -22,6 +22,10 @@ class Hotel:
         else:
             return False
 
+    @classmethod
+    def get_hotel_count(cls, data):
+        return len(data)
+
 #Create class TicketConfirmation and define the functions
 class TicketConfirmation:
     def __init__(self, customer_name, hotel_name):
@@ -39,6 +43,8 @@ class TicketConfirmation:
 hotel1 = Hotel(hotel_id= "188")
 hotel2 = Hotel(hotel_id="134")
 
+print(hotel1.available())
+
 print(hotel1.name)
 print(hotel2.name)
 
@@ -46,3 +52,5 @@ print(hotel1.watermark)
 print(hotel2.watermark)
 
 print(Hotel.watermark)
+
+print(Hotel.get_hotel_count(data=df))

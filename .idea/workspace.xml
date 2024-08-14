@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c639a56a-d7a1-4942-a198-08479e742866" name="Changes" comment="Create a SecurePayment class for authentication and book the hotel.&#10;App completed.">
-      <change afterPath="$PROJECT_DIR$/main2.py" afterDir="false" />
+    <list default="true" id="c639a56a-d7a1-4942-a198-08479e742866" name="Changes" comment="Copy the main code to learn difference between class variable and instance variable">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Planning.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Planning.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotels.csv" beforeDir="false" afterPath="$PROJECT_DIR$/hotels.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main2.py" beforeDir="false" afterPath="$PROJECT_DIR$/main2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,16 +49,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "Python.main2.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/aadharkaushik/Desktop/pythonProject/Hotel Reservation App/pythonProject",
-    "settings.editor.selected.configurable": "project.scopes"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/aadharkaushik/Desktop/pythonProject/Hotel Reservation App/pythonProject&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -167,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720704081285</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Copy the main code to learn difference between class variable and instance variable">
+      <option name="closed" value="true" />
+      <created>1723554250906</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723554250906</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,6 +196,7 @@
     <MESSAGE value="Hotel reservation and ticket generation." />
     <MESSAGE value="Data file for card and card security" />
     <MESSAGE value="Create a SecurePayment class for authentication and book the hotel.&#10;App completed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a SecurePayment class for authentication and book the hotel.&#10;App completed." />
+    <MESSAGE value="Copy the main code to learn difference between class variable and instance variable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Copy the main code to learn difference between class variable and instance variable" />
   </component>
 </project>

@@ -5,9 +5,11 @@ User Information page (Later updation session).
 Payment Gateway page (Later updation session).
 Send the confirmation of the user's hotel reservation.
 
+
 Classes:
 User.
 Hotel.
 TicketConfirmation.
 Rooms (Later updation session).
 Payment Gateway (Later Updation session).
+Or Credit Card (TO get the info).
