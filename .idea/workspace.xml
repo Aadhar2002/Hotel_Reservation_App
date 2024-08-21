@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c639a56a-d7a1-4942-a198-08479e742866" name="Changes" comment="Copy the main code to learn difference between class variable and instance variable">
+    <list default="true" id="c639a56a-d7a1-4942-a198-08479e742866" name="Changes" comment="Copy the main code to learn difference between class variable and instance variable  also the difference between class method and instance method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Planning.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Planning.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotels.csv" beforeDir="false" afterPath="$PROJECT_DIR$/hotels.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main2.py" beforeDir="false" afterPath="$PROJECT_DIR$/main2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +174,31 @@
       <option name="project" value="LOCAL" />
       <updated>1723554250906</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Copy the main code to learn difference between class variable and instance variable  also the difference between class method and instance method">
+      <option name="closed" value="true" />
+      <created>1723635015433</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1723635015433</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Copy the main code to learn difference between class variable and instance variable  also the difference between class method and instance method">
+      <option name="closed" value="true" />
+      <created>1723635028277</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1723635028278</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Copy the main code to learn difference between class variable and instance variable  also the difference between class method and instance method">
+      <option name="closed" value="true" />
+      <created>1723635037838</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1723635037838</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +219,7 @@
     <MESSAGE value="Data file for card and card security" />
     <MESSAGE value="Create a SecurePayment class for authentication and book the hotel.&#10;App completed." />
     <MESSAGE value="Copy the main code to learn difference between class variable and instance variable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Copy the main code to learn difference between class variable and instance variable" />
+    <MESSAGE value="Copy the main code to learn difference between class variable and instance variable  also the difference between class method and instance method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Copy the main code to learn difference between class variable and instance variable  also the difference between class method and instance method" />
   </component>
 </project>

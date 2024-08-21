@@ -22,9 +22,18 @@ class Hotel:
         else:
             return False
 
+    # "@" is used for declaring decorator.
+    #Class Method
     @classmethod
     def get_hotel_count(cls, data):
         return len(data)
+
+    #Magic Methods
+    def __eq__(self, other):
+        if self.hotel_id == other.hotel_id:
+            return True
+        else:
+            return False
 
 #Create class TicketConfirmation and define the functions
 class TicketConfirmation:
@@ -35,22 +44,19 @@ class TicketConfirmation:
         content = f"""
         Thank you for booking our hotel!
         Here are your booking details:
-        Name:{self.customer_name}
+        Name:{self.get_customer_name}
         Hotel Name: {self.hotel.name}
         """
         return content
 
-hotel1 = Hotel(hotel_id= "188")
-hotel2 = Hotel(hotel_id="134")
+    #Property
+    @property
+    def get_customer_name(self):
+        name = self.customer_name.strip()
+        name = name.title()
+        return name
 
-print(hotel1.available())
-
-print(hotel1.name)
-print(hotel2.name)
-
-print(hotel1.watermark)
-print(hotel2.watermark)
-
-print(Hotel.watermark)
-
-print(Hotel.get_hotel_count(data=df))
+    #Static Method
+    @staticmethod
+    def convert(amount):
+        return amount * 1.6
