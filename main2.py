@@ -1,5 +1,6 @@
 #Import pandas
 import pandas as pd
+from abc import ABC, abstractmethod #abc is abstract base class
 
 #Load the datasets
 df = pd.read_csv("hotels.csv", dtype={"id": str})
@@ -35,8 +36,17 @@ class Hotel:
         else:
             return False
 
+
+#Abstract Class
+class Ticket(ABC):
+
+    @abstractmethod
+    def generate(self):
+        pass
+
+
 #Create class TicketConfirmation and define the functions
-class TicketConfirmation:
+class TicketConfirmation(Ticket):
     def __init__(self, customer_name, hotel_name):
         self.customer_name = customer_name
         self.hotel = hotel_name
@@ -60,3 +70,9 @@ class TicketConfirmation:
     @staticmethod
     def convert(amount):
         return amount * 1.6
+
+class DigitalTicket(Ticket):
+    def generate(self):
+        return "Hello this is your computerized ticket."
+    def dowload(self):
+        pass
